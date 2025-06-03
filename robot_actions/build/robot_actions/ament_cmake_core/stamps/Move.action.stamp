@@ -1,0 +1,13 @@
+# Goal
+string motion_type
+float64 value
+
+---
+# Result
+bool success
+string message
+
+---
+# Feedback
+float64 progress
+

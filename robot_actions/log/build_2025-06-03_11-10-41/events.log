@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.001971] (robot_actions) JobQueued: {'identifier': 'robot_actions', 'dependencies': OrderedDict()}
+[0.002013] (robot_actions) JobStarted: {'identifier': 'robot_actions'}
+[0.035805] (robot_actions) JobProgress: {'identifier': 'robot_actions', 'progress': 'cmake'}
+[0.035983] (robot_actions) Command: {'cmd': ['/usr/bin/cmake', '/home/nourhane/ros2_ws/src/robot_actions', '-DCMAKE_INSTALL_PREFIX=/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions'], 'cwd': '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourhane'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nourhane'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2161'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=54cbdb1e984d77c64219e675683eb5a8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nourhane'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourhane'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/nourhane/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nourhane-VirtualBox:@/tmp/.ICE-unix/2161,unix/nourhane-VirtualBox:/tmp/.ICE-unix/2161'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c9b885e_c748_41b6_817d_ff5c6512d40a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8YG662'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_simulations:/home/nourhane/turtlebot3_ws/install/turtlebot3_bringup:/home/nourhane/turtlebot3_ws/install/turtlebot3_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_navigation2:/home/nourhane/turtlebot3_ws/install/turtlebot3_fake_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs:/home/nourhane/turtlebot3_ws/install/turtlebot3_gazebo:/home/nourhane/turtlebot3_ws/install/turtlebot3_description:/home/nourhane/turtlebot3_ws/install/turtlebot3_cartographer:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=54cbdb1e984d77c64219e675683eb5a8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nourhane/turtlebot3_ws/build/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nourhane/turtlebot3_ws/build/turtlebot3_example:/home/nourhane/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3:/home/nourhane/turtlebot3_ws/install/turtlebot3_simulations:/home/nourhane/turtlebot3_ws/install/turtlebot3_bringup:/home/nourhane/turtlebot3_ws/install/turtlebot3_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_navigation2:/home/nourhane/turtlebot3_ws/install/turtlebot3_fake_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs:/home/nourhane/turtlebot3_ws/install/turtlebot3_gazebo:/home/nourhane/turtlebot3_ws/install/turtlebot3_description:/home/nourhane/turtlebot3_ws/install/turtlebot3_cartographer:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.078220] (robot_actions) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100019] (-) TimerEvent: {}
+[0.201391] (-) TimerEvent: {}
+[0.302517] (-) TimerEvent: {}
+[0.353530] (robot_actions) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.363116] (robot_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.370430] (robot_actions) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.402675] (-) TimerEvent: {}
+[0.468814] (robot_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.511331] (-) TimerEvent: {}
+[0.612585] (-) TimerEvent: {}
+[0.703336] (robot_actions) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.713244] (-) TimerEvent: {}
+[0.814658] (-) TimerEvent: {}
+[0.878405] (robot_actions) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.909107] (robot_actions) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.915539] (-) TimerEvent: {}
+[0.947979] (robot_actions) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.016201] (-) TimerEvent: {}
+[1.118069] (-) TimerEvent: {}
+[1.218534] (-) TimerEvent: {}
+[1.319511] (-) TimerEvent: {}
+[1.420771] (-) TimerEvent: {}
+[1.521596] (-) TimerEvent: {}
+[1.622746] (-) TimerEvent: {}
+[1.679184] (robot_actions) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.723003] (-) TimerEvent: {}
+[1.824921] (-) TimerEvent: {}
+[1.925614] (-) TimerEvent: {}
+[2.026894] (-) TimerEvent: {}
+[2.127599] (-) TimerEvent: {}
+[2.228280] (-) TimerEvent: {}
+[2.295994] (robot_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.328949] (-) TimerEvent: {}
+[2.430328] (-) TimerEvent: {}
+[2.531505] (-) TimerEvent: {}
+[2.632386] (-) TimerEvent: {}
+[2.733972] (-) TimerEvent: {}
+[2.834562] (-) TimerEvent: {}
+[2.907023] (robot_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.935069] (-) TimerEvent: {}
+[2.951162] (robot_actions) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.955024] (robot_actions) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.019710] (robot_actions) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.020020] (robot_actions) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.020135] (robot_actions) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.020462] (robot_actions) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.035508] (-) TimerEvent: {}
+[3.060221] (robot_actions) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.136404] (-) TimerEvent: {}
+[3.193937] (robot_actions) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.195693] (robot_actions) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_generator_c>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_typesupport_introspection_cpp>;/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_generator_c;/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_generator_py\n'}
+[3.195886] (robot_actions) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.198028] (robot_actions) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.202126] (robot_actions) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.204896] (robot_actions) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.215446] (robot_actions) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.215683] (robot_actions) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.218651] (robot_actions) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.236537] (-) TimerEvent: {}
+[3.238201] (robot_actions) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.300880] (robot_actions) StdoutLine: {'line': b'-- Generating done\n'}
+[3.318207] (robot_actions) StdoutLine: {'line': b'-- Build files have been written to: /home/nourhane/ros2_ws/src/robot_actions/build/robot_actions\n'}
+[3.328749] (robot_actions) CommandEnded: {'returncode': 0}
+[3.329846] (robot_actions) JobProgress: {'identifier': 'robot_actions', 'progress': 'build'}
+[3.333272] (robot_actions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions', '--', '-j4', '-l4'], 'cwd': '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourhane'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nourhane'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2161'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=54cbdb1e984d77c64219e675683eb5a8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nourhane'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourhane'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/nourhane/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nourhane-VirtualBox:@/tmp/.ICE-unix/2161,unix/nourhane-VirtualBox:/tmp/.ICE-unix/2161'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c9b885e_c748_41b6_817d_ff5c6512d40a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8YG662'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_simulations:/home/nourhane/turtlebot3_ws/install/turtlebot3_bringup:/home/nourhane/turtlebot3_ws/install/turtlebot3_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_navigation2:/home/nourhane/turtlebot3_ws/install/turtlebot3_fake_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs:/home/nourhane/turtlebot3_ws/install/turtlebot3_gazebo:/home/nourhane/turtlebot3_ws/install/turtlebot3_description:/home/nourhane/turtlebot3_ws/install/turtlebot3_cartographer:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=54cbdb1e984d77c64219e675683eb5a8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nourhane/turtlebot3_ws/build/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nourhane/turtlebot3_ws/build/turtlebot3_example:/home/nourhane/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3:/home/nourhane/turtlebot3_ws/install/turtlebot3_simulations:/home/nourhane/turtlebot3_ws/install/turtlebot3_bringup:/home/nourhane/turtlebot3_ws/install/turtlebot3_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_navigation2:/home/nourhane/turtlebot3_ws/install/turtlebot3_fake_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs:/home/nourhane/turtlebot3_ws/install/turtlebot3_gazebo:/home/nourhane/turtlebot3_ws/install/turtlebot3_description:/home/nourhane/turtlebot3_ws/install/turtlebot3_cartographer:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[3.337697] (-) TimerEvent: {}
+[3.428900] (robot_actions) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.438175] (-) TimerEvent: {}
+[3.447760] (robot_actions) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.480840] (robot_actions) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_robot_actions\n'}
+[3.538367] (-) TimerEvent: {}
+[3.641144] (-) TimerEvent: {}
+[3.742170] (-) TimerEvent: {}
+[3.842821] (-) TimerEvent: {}
+[3.943213] (-) TimerEvent: {}
+[4.017742] (robot_actions) StdoutLine: {'line': b'running egg_info\n'}
+[4.019575] (robot_actions) StdoutLine: {'line': b'creating robot_actions.egg-info\n'}
+[4.020155] (robot_actions) StdoutLine: {'line': b'writing robot_actions.egg-info/PKG-INFO\n'}
+[4.020712] (robot_actions) StdoutLine: {'line': b'writing dependency_links to robot_actions.egg-info/dependency_links.txt\n'}
+[4.021080] (robot_actions) StdoutLine: {'line': b'writing top-level names to robot_actions.egg-info/top_level.txt\n'}
+[4.021534] (robot_actions) StdoutLine: {'line': b"writing manifest file 'robot_actions.egg-info/SOURCES.txt'\n"}
+[4.031716] (robot_actions) StdoutLine: {'line': b"reading manifest file 'robot_actions.egg-info/SOURCES.txt'\n"}
+[4.036848] (robot_actions) StdoutLine: {'line': b"writing manifest file 'robot_actions.egg-info/SOURCES.txt'\n"}
+[4.043538] (-) TimerEvent: {}
+[4.125798] (robot_actions) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_robot_actions_egg\n'}
+[4.143877] (-) TimerEvent: {}
+[4.244540] (-) TimerEvent: {}
+[4.345038] (-) TimerEvent: {}
+[4.445713] (-) TimerEvent: {}
+[4.546422] (-) TimerEvent: {}
+[4.647693] (-) TimerEvent: {}
+[4.748667] (-) TimerEvent: {}
+[4.849135] (-) TimerEvent: {}
+[4.950590] (-) TimerEvent: {}
+[5.004703] (robot_actions) StdoutLine: {'line': b'[  5%] Built target robot_actions__cpp\n'}
+[5.048599] (robot_actions) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.051459] (-) TimerEvent: {}
+[5.055494] (robot_actions) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.062977] (robot_actions) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.104892] (robot_actions) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_generator_c.dir/rosidl_generator_c/robot_actions/action/detail/move__functions.c.o\x1b[0m\n'}
+[5.151832] (-) TimerEvent: {}
+[5.255171] (-) TimerEvent: {}
+[5.356551] (-) TimerEvent: {}
+[5.459387] (-) TimerEvent: {}
+[5.560185] (-) TimerEvent: {}
+[5.660864] (-) TimerEvent: {}
+[5.663341] (robot_actions) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_generator_c.dir/rosidl_generator_c/robot_actions/action/detail/triangle__functions.c.o\x1b[0m\n'}
+[5.761085] (-) TimerEvent: {}
+[5.861535] (-) TimerEvent: {}
+[5.956391] (robot_actions) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library librobot_actions__rosidl_generator_c.so\x1b[0m\n'}
+[5.964494] (-) TimerEvent: {}
+[6.060722] (robot_actions) StdoutLine: {'line': b'[ 20%] Built target robot_actions__rosidl_generator_c\n'}
+[6.064860] (-) TimerEvent: {}
+[6.086403] (robot_actions) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.151467] (robot_actions) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_actions/action/move__type_support.cpp.o\x1b[0m\n'}
+[6.165043] (-) TimerEvent: {}
+[6.265945] (-) TimerEvent: {}
+[6.367111] (-) TimerEvent: {}
+[6.468537] (-) TimerEvent: {}
+[6.498788] (robot_actions) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_actions/action/detail/move__type_support.cpp.o\x1b[0m\n'}
+[6.570556] (-) TimerEvent: {}
+[6.671354] (-) TimerEvent: {}
+[6.744929] (robot_actions) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_actions/action/detail/dds_fastrtps/move__type_support.cpp.o\x1b[0m\n'}
+[6.771489] (-) TimerEvent: {}
+[6.873427] (-) TimerEvent: {}
+[6.974032] (-) TimerEvent: {}
+[7.077904] (-) TimerEvent: {}
+[7.178577] (-) TimerEvent: {}
+[7.279504] (-) TimerEvent: {}
+[7.380087] (-) TimerEvent: {}
+[7.391629] (robot_actions) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_actions/action/triangle__type_support.cpp.o\x1b[0m\n'}
+[7.480319] (-) TimerEvent: {}
+[7.581527] (-) TimerEvent: {}
+[7.625846] (robot_actions) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_actions/action/detail/move__type_support_c.cpp.o\x1b[0m\n'}
+[7.683544] (-) TimerEvent: {}
+[7.784382] (-) TimerEvent: {}
+[7.884852] (-) TimerEvent: {}
+[7.893526] (robot_actions) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_actions/action/detail/triangle__type_support.cpp.o\x1b[0m\n'}
+[7.985065] (-) TimerEvent: {}
+[8.079273] (robot_actions) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_actions/action/detail/dds_fastrtps/triangle__type_support.cpp.o\x1b[0m\n'}
+[8.085245] (-) TimerEvent: {}
+[8.188572] (-) TimerEvent: {}
+[8.289332] (-) TimerEvent: {}
+[8.389934] (-) TimerEvent: {}
+[8.392691] (robot_actions) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library librobot_actions__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.490103] (-) TimerEvent: {}
+[8.506244] (robot_actions) StdoutLine: {'line': b'[ 43%] Built target robot_actions__rosidl_typesupport_cpp\n'}
+[8.534816] (robot_actions) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.559339] (robot_actions) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_actions/action/detail/triangle__type_support_c.cpp.o\x1b[0m\n'}
+[8.590488] (-) TimerEvent: {}
+[8.691068] (-) TimerEvent: {}
+[8.791938] (-) TimerEvent: {}
+[8.892552] (-) TimerEvent: {}
+[8.994280] (-) TimerEvent: {}
+[9.095473] (-) TimerEvent: {}
+[9.197879] (-) TimerEvent: {}
+[9.232802] (robot_actions) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librobot_actions__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.281506] (robot_actions) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library librobot_actions__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.298081] (-) TimerEvent: {}
+[9.400087] (-) TimerEvent: {}
+[9.403356] (robot_actions) StdoutLine: {'line': b'[ 53%] Built target robot_actions__rosidl_typesupport_introspection_cpp\n'}
+[9.414205] (robot_actions) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library librobot_actions__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.427655] (robot_actions) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.472204] (robot_actions) StdoutLine: {'line': b'[ 58%] Built target robot_actions__rosidl_typesupport_fastrtps_cpp\n'}
+[9.500562] (-) TimerEvent: {}
+[9.581960] (robot_actions) StdoutLine: {'line': b'[ 58%] Built target robot_actions__rosidl_typesupport_fastrtps_c\n'}
+[9.600824] (-) TimerEvent: {}
+[9.701323] (-) TimerEvent: {}
+[9.749101] (robot_actions) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_actions/action/detail/move__type_support.c.o\x1b[0m\n'}
+[9.754054] (robot_actions) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_actions/action/detail/triangle__type_support.c.o\x1b[0m\n'}
+[9.801510] (-) TimerEvent: {}
+[9.866270] (robot_actions) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library librobot_actions__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.901811] (-) TimerEvent: {}
+[9.930097] (robot_actions) StdoutLine: {'line': b'[ 66%] Built target robot_actions__rosidl_typesupport_introspection_c\n'}
+[10.002824] (-) TimerEvent: {}
+[10.103726] (-) TimerEvent: {}
+[10.141486] (robot_actions) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_actions/action/triangle__type_support.cpp.o\x1b[0m\n'}
+[10.142680] (robot_actions) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/robot_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_actions/action/move__type_support.cpp.o\x1b[0m\n'}
+[10.204169] (-) TimerEvent: {}
+[10.229647] (robot_actions) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librobot_actions__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.304572] (-) TimerEvent: {}
+[10.304898] (robot_actions) StdoutLine: {'line': b'[ 74%] Built target robot_actions__rosidl_typesupport_c\n'}
+[10.342748] (robot_actions) StdoutLine: {'line': b'[ 74%] Built target robot_actions\n'}
+[10.380827] (robot_actions) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.405033] (-) TimerEvent: {}
+[10.505736] (-) TimerEvent: {}
+[10.606644] (-) TimerEvent: {}
+[10.707605] (-) TimerEvent: {}
+[10.808275] (-) TimerEvent: {}
+[10.909269] (-) TimerEvent: {}
+[11.010009] (-) TimerEvent: {}
+[11.111655] (-) TimerEvent: {}
+[11.212274] (-) TimerEvent: {}
+[11.313598] (-) TimerEvent: {}
+[11.414471] (-) TimerEvent: {}
+[11.515683] (-) TimerEvent: {}
+[11.616552] (-) TimerEvent: {}
+[11.729572] (-) TimerEvent: {}
+[11.830184] (-) TimerEvent: {}
+[11.930676] (-) TimerEvent: {}
+[12.031600] (-) TimerEvent: {}
+[12.113248] (robot_actions) StdoutLine: {'line': b'[ 76%] Built target robot_actions__py\n'}
+[12.132214] (-) TimerEvent: {}
+[12.150408] (robot_actions) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_generator_py.dir/rosidl_generator_py/robot_actions/action/_triangle_s.c.o\x1b[0m\n'}
+[12.152626] (robot_actions) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_generator_py.dir/rosidl_generator_py/robot_actions/action/_move_s.c.o\x1b[0m\n'}
+[12.232578] (-) TimerEvent: {}
+[12.333524] (-) TimerEvent: {}
+[12.434804] (-) TimerEvent: {}
+[12.476559] (robot_actions) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_actions/librobot_actions__rosidl_generator_py.so\x1b[0m\n'}
+[12.535151] (-) TimerEvent: {}
+[12.550662] (robot_actions) StdoutLine: {'line': b'[ 84%] Built target robot_actions__rosidl_generator_py\n'}
+[12.595215] (robot_actions) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_actions/_robot_actions_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.595507] (robot_actions) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_actions/_robot_actions_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.601059] (robot_actions) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/robot_actions__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_actions/_robot_actions_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.635309] (-) TimerEvent: {}
+[12.736596] (-) TimerEvent: {}
+[12.837567] (-) TimerEvent: {}
+[12.856970] (robot_actions) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_actions/robot_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.857221] (robot_actions) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_actions/robot_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.881095] (robot_actions) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_actions/robot_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.939603] (-) TimerEvent: {}
+[12.940991] (robot_actions) StdoutLine: {'line': b'[100%] Built target robot_actions__rosidl_typesupport_introspection_c__pyext\n'}
+[12.941244] (robot_actions) StdoutLine: {'line': b'[100%] Built target robot_actions__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.968645] (robot_actions) StdoutLine: {'line': b'[100%] Built target robot_actions__rosidl_typesupport_c__pyext\n'}
+[12.988162] (robot_actions) CommandEnded: {'returncode': 0}
+[12.989480] (robot_actions) JobProgress: {'identifier': 'robot_actions', 'progress': 'install'}
+[13.005972] (robot_actions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions'], 'cwd': '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourhane'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nourhane'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2161'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=54cbdb1e984d77c64219e675683eb5a8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nourhane'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourhane'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/nourhane/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nourhane-VirtualBox:@/tmp/.ICE-unix/2161,unix/nourhane-VirtualBox:/tmp/.ICE-unix/2161'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3c9b885e_c748_41b6_817d_ff5c6512d40a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8YG662'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_simulations:/home/nourhane/turtlebot3_ws/install/turtlebot3_bringup:/home/nourhane/turtlebot3_ws/install/turtlebot3_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_navigation2:/home/nourhane/turtlebot3_ws/install/turtlebot3_fake_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs:/home/nourhane/turtlebot3_ws/install/turtlebot3_gazebo:/home/nourhane/turtlebot3_ws/install/turtlebot3_description:/home/nourhane/turtlebot3_ws/install/turtlebot3_cartographer:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=54cbdb1e984d77c64219e675683eb5a8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nourhane/turtlebot3_ws/build/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nourhane/turtlebot3_ws/build/turtlebot3_example:/home/nourhane/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourhane/turtlebot3_ws/install/turtlebot3:/home/nourhane/turtlebot3_ws/install/turtlebot3_simulations:/home/nourhane/turtlebot3_ws/install/turtlebot3_bringup:/home/nourhane/turtlebot3_ws/install/turtlebot3_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_navigation2:/home/nourhane/turtlebot3_ws/install/turtlebot3_fake_node:/home/nourhane/turtlebot3_ws/install/turtlebot3_msgs:/home/nourhane/turtlebot3_ws/install/turtlebot3_gazebo:/home/nourhane/turtlebot3_ws/install/turtlebot3_description:/home/nourhane/turtlebot3_ws/install/turtlebot3_cartographer:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nourhane/turtlebot3_ws/install/dynamixel_sdk:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[13.021840] (robot_actions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.022337] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/ament_index/resource_index/rosidl_interfaces/robot_actions\n'}
+[13.022672] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions\n'}
+[13.022911] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action\n'}
+[13.023175] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/move.h\n'}
+[13.023419] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/triangle.h\n'}
+[13.023762] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail\n'}
+[13.023915] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__functions.c\n'}
+[13.024125] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__functions.h\n'}
+[13.024535] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__functions.h\n'}
+[13.024832] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__struct.h\n'}
+[13.025071] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__type_support.h\n'}
+[13.025372] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__type_support.h\n'}
+[13.025715] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__struct.h\n'}
+[13.025933] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__functions.c\n'}
+[13.026210] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg\n'}
+[13.026532] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.026862] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/environment/library_path.sh\n'}
+[13.027200] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/environment/library_path.dsv\n'}
+[13.027699] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_generator_c.so\n'}
+[13.028887] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_generator_c.so" to ""\n'}
+[13.029341] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions\n'}
+[13.029485] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action\n'}
+[13.029747] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail\n'}
+[13.029884] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[13.030108] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__rosidl_typesupport_fastrtps_c.h\n'}
+[13.030251] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg\n'}
+[13.030373] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.030678] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_fastrtps_c.so\n'}
+[13.031065] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.031319] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions\n'}
+[13.031524] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action\n'}
+[13.031749] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail\n'}
+[13.031962] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__rosidl_typesupport_introspection_c.h\n'}
+[13.032142] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__type_support.c\n'}
+[13.032672] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[13.032842] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__type_support.c\n'}
+[13.033071] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg\n'}
+[13.033192] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.033288] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_introspection_c.so\n'}
+[13.033688] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.034130] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_c.so\n'}
+[13.034555] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_c.so" to ""\n'}
+[13.034845] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions\n'}
+[13.035037] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action\n'}
+[13.035244] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail\n'}
+[13.035375] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__type_support.hpp\n'}
+[13.035546] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__type_support.hpp\n'}
+[13.035687] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__builder.hpp\n'}
+[13.035849] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__traits.hpp\n'}
+[13.035980] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__traits.hpp\n'}
+[13.036086] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__struct.hpp\n'}
+[13.036233] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__struct.hpp\n'}
+[13.036322] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__builder.hpp\n'}
+[13.036481] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/triangle.hpp\n'}
+[13.036661] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/move.hpp\n'}
+[13.036853] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg\n'}
+[13.036983] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.037166] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions\n'}
+[13.037274] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action\n'}
+[13.037474] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail\n'}
+[13.037650] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.037756] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/dds_fastrtps\n'}
+[13.037942] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.038047] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg\n'}
+[13.038201] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.038283] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.038753] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.038978] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions\n'}
+[13.039172] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action\n'}
+[13.039277] (robot_actions) StdoutLine: {'line': b'-- Up-to-date: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail\n'}
+[13.039489] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__type_support.cpp\n'}
+[13.039667] (-) TimerEvent: {}
+[13.039844] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.039970] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/triangle__type_support.cpp\n'}
+[13.040159] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/include/robot_actions/robot_actions/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.040241] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_introspection_cpp.so\n'}
+[13.040593] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.040932] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_cpp.so\n'}
+[13.041354] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_typesupport_cpp.so" to ""\n'}
+[13.041659] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/environment/pythonpath.sh\n'}
+[13.041854] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/environment/pythonpath.dsv\n'}
+[13.041948] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions-0.0.0-py3.10.egg-info\n'}
+[13.042082] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.042215] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.042374] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.042649] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.042838] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions\n'}
+[13.043000] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action\n'}
+[13.043299] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action/_triangle_s.c\n'}
+[13.043535] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action/_move.py\n'}
+[13.043771] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action/_move_s.c\n'}
+[13.043881] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action/_triangle.py\n'}
+[13.044056] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action/__init__.py\n'}
+[13.044159] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/_robot_actions_s.ep.rosidl_typesupport_c.c\n'}
+[13.044322] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.044492] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.044736] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/_robot_actions_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.045018] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/librobot_actions__rosidl_generator_py.so\n'}
+[13.045198] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/__init__.py\n'}
+[13.045458] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/_robot_actions_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.045725] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.134344] (robot_actions) StdoutLine: {'line': b"Listing '/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions'...\n"}
+[13.134693] (robot_actions) StdoutLine: {'line': b"Compiling '/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/__init__.py'...\n"}
+[13.134836] (robot_actions) StdoutLine: {'line': b"Listing '/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action'...\n"}
+[13.134939] (robot_actions) StdoutLine: {'line': b"Compiling '/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action/__init__.py'...\n"}
+[13.135407] (robot_actions) StdoutLine: {'line': b"Compiling '/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action/_move.py'...\n"}
+[13.135531] (robot_actions) StdoutLine: {'line': b"Compiling '/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/action/_triangle.py'...\n"}
+[13.140194] (-) TimerEvent: {}
+[13.141776] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.142764] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.143164] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.143880] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.144262] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.145056] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/local/lib/python3.10/dist-packages/robot_actions/robot_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.145298] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_generator_py.so\n'}
+[13.145910] (robot_actions) StdoutLine: {'line': b'-- Set runtime path of "/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/lib/librobot_actions__rosidl_generator_py.so" to ""\n'}
+[13.146128] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/action/Move.idl\n'}
+[13.147079] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/action/Triangle.idl\n'}
+[13.147215] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/actions/Move.action\n'}
+[13.147311] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/actions/Triangle.action\n'}
+[13.147469] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/ament_index/resource_index/package_run_dependencies/robot_actions\n'}
+[13.147565] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/ament_index/resource_index/parent_prefix_path/robot_actions\n'}
+[13.147698] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/environment/ament_prefix_path.sh\n'}
+[13.147986] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/environment/ament_prefix_path.dsv\n'}
+[13.148173] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/environment/path.sh\n'}
+[13.148366] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/environment/path.dsv\n'}
+[13.148529] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/local_setup.bash\n'}
+[13.149023] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/local_setup.sh\n'}
+[13.149329] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/local_setup.zsh\n'}
+[13.149438] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/local_setup.dsv\n'}
+[13.149560] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/package.dsv\n'}
+[13.149691] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/ament_index/resource_index/packages/robot_actions\n'}
+[13.150045] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_generator_cExport.cmake\n'}
+[13.150207] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.150402] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.150690] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.151532] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actions__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.151650] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actions__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.151877] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actions__rosidl_typesupport_cExport.cmake\n'}
+[13.151970] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actions__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.152081] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_generator_cppExport.cmake\n'}
+[13.152195] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.152846] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.152945] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actions__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.153012] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.153142] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actions__rosidl_typesupport_cppExport.cmake\n'}
+[13.153217] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actions__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.153398] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_generator_pyExport.cmake\n'}
+[13.153632] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/export_robot_actions__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.155109] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/rosidl_cmake-extras.cmake\n'}
+[13.155235] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.155309] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.155374] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.155438] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.155503] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.155648] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.155848] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actionsConfig.cmake\n'}
+[13.155914] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/cmake/robot_actionsConfig-version.cmake\n'}
+[13.155975] (robot_actions) StdoutLine: {'line': b'-- Installing: /home/nourhane/ros2_ws/src/robot_actions/install/robot_actions/share/robot_actions/package.xml\n'}
+[13.159303] (robot_actions) CommandEnded: {'returncode': 0}
+[13.202922] (robot_actions) JobEnded: {'identifier': 'robot_actions', 'rc': 0}
+[13.204131] (-) EventReactorShutdown: {}

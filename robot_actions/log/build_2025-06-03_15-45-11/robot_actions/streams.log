@@ -1,0 +1,47 @@
+[0.019s] Invoking command in '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/nourhane/ros2_ws/src/robot_actions -DCMAKE_INSTALL_PREFIX=/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions
+[0.030s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.186s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.192s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.251s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.285s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.296s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.308s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.705s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.971s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.362s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.396s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.396s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.396s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.496s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.496s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_generator_c>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_typesupport_introspection_cpp>;/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_generator_c;/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/rosidl_generator_py
+[1.496s] -- Configured cppcheck exclude dirs and/or files: 
+[1.502s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.514s] -- Added test 'lint_cmake' to check CMake code style
+[1.519s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.554s] -- Added test 'uncrustify' to check C / C++ code style
+[1.554s] -- Configured uncrustify additional arguments: 
+[1.560s] -- Added test 'xmllint' to check XML markup files
+[1.565s] -- Configuring done
+[1.627s] -- Generating done
+[1.642s] -- Build files have been written to: /home/nourhane/ros2_ws/src/robot_actions/build/robot_actions
+[1.653s] Invoked command in '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/nourhane/ros2_ws/src/robot_actions -DCMAKE_INSTALL_PREFIX=/home/nourhane/ros2_ws/src/robot_actions/install/robot_actions
+[1.655s] Invoking command in '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/nourhane/ros2_ws/src/robot_actions/build/robot_actions -- -j4 -l4
+[1.709s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.730s] failed to create symbolic link '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions/ament_cmake_python/robot_actions/robot_actions' because existing path cannot be removed: Is a directory
+[1.732s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_robot_actions.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_robot_actions] Error 1
+[1.733s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_robot_actions.dir/all] Error 2
+[1.733s] gmake[1]: *** Waiting for unfinished jobs....
+[1.734s] [  3%] Built target robot_actions__cpp
+[3.300s] [35m[1mConsolidate compiler generated dependencies of target robot_actions__rosidl_generator_c[0m
+[3.330s] [  5%] [32mBuilding C object CMakeFiles/robot_actions__rosidl_generator_c.dir/rosidl_generator_c/robot_actions/action/detail/move__functions.c.o[0m
+[3.331s] [  7%] [32mBuilding C object CMakeFiles/robot_actions__rosidl_generator_c.dir/rosidl_generator_c/robot_actions/action/detail/triangle__functions.c.o[0m
+[3.331s] [  9%] [32mBuilding C object CMakeFiles/robot_actions__rosidl_generator_c.dir/rosidl_generator_c/robot_actions/action/detail/polygon__functions.c.o[0m
+[3.346s] [ 10%] [32mBuilding C object CMakeFiles/robot_actions__rosidl_generator_c.dir/rosidl_generator_c/robot_actions/action/detail/save_move__functions.c.o[0m
+[3.579s] [ 12%] [32m[1mLinking C shared library librobot_actions__rosidl_generator_c.so[0m
+[3.647s] [ 12%] Built target robot_actions__rosidl_generator_c
+[3.648s] gmake: *** [Makefile:146: all] Error 2
+[3.650s] Invoked command in '/home/nourhane/ros2_ws/src/robot_actions/build/robot_actions' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nourhane/turtlebot3_ws/install/turtlebot3_teleop:/home/nourhane/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/nourhane/ros2_ws/src/robot_actions/build/robot_actions -- -j4 -l4

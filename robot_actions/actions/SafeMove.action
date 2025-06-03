@@ -1,0 +1,13 @@
+# Goal
+string motion_type   # "linear" or "rotation"
+float64 value        # meters or radians
+
+---
+# Result
+bool success
+string message
+
+---
+# Feedback
+float32 progress     # from 0.0 to 1.0
+

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_actions/actions/SaveMove.action
+// generated code does not contain a copyright notice
+
+
+module robot_actions {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct SaveMove_Goal {
+      @verbatim (language="comment", text=
+        "\"linear\" or \"rotation\"")
+      string motion_type;
+
+      @verbatim (language="comment", text=
+        "meters or radians")
+      double value;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct SaveMove_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct SaveMove_Feedback {
+      @verbatim (language="comment", text=
+        "from 0.0 to 1.0")
+      float progress;
+    };
+  };
+};

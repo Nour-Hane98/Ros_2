@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_actions/actions/Triangle.action
+// generated code does not contain a copyright notice
+
+
+module robot_actions {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Triangle_Goal {
+      double side_length;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Triangle_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Triangle_Feedback {
+      @verbatim (language="comment", text=
+        "From 1 to 6 (3 sides + 3 turns)")
+      int32 current_step;
+    };
+  };
+};

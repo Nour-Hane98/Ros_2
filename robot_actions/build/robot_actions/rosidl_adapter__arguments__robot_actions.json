@@ -1,0 +1,9 @@
+{
+  "package_name": "robot_actions",
+  "non_idl_tuples": [
+    "/home/nourhane/ros2_ws/src/robot_actions:actions/Move.action",
+    "/home/nourhane/ros2_ws/src/robot_actions:actions/Triangle.action",
+    "/home/nourhane/ros2_ws/src/robot_actions:actions/Polygon.action",
+    "/home/nourhane/ros2_ws/src/robot_actions:actions/SaveMove.action"
+  ]
+}

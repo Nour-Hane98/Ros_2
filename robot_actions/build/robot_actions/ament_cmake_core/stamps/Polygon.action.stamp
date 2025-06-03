@@ -1,0 +1,13 @@
+# Goal
+int32 sides         # N
+float64 side_length # L
+
+---
+# Result
+bool success
+string message
+
+---
+# Feedback
+int32 current_step  # 1 to 2*N (forward+turn steps)
+

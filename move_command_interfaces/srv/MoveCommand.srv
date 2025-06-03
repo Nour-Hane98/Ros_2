@@ -1,0 +1,6 @@
+string motion_type
+float64 value
+---
+bool success
+string message
+

@@ -1,0 +1,8 @@
+action/Move.idl
+action/Polygon.idl
+action/SaveMove.idl
+action/Triangle.idl
+actions/Move.action
+actions/Polygon.action
+actions/SaveMove.action
+actions/Triangle.action
